@@ -4,6 +4,8 @@ public class SwitchOperator {
 
 	
 	public static void main(String[] args) {
+		//Perform calculation based on the user input operations
+		
 		int a = 6, b = 3, sum, sub, mul, div;
 		sum = a + b;
 		sub = a - b;
