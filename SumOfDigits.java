@@ -4,8 +4,10 @@ public class SumOfDigits {
 	
 	 public static void main(String args[])
 	    {
+		 
+		 //Find the sum of digits of a given number
+		 
 	        int m=123, n, sum = 0;
-	       
 	    
 	        while(m > 0)
 	        {
@@ -13,6 +15,7 @@ public class SumOfDigits {
 	            sum = sum + n;
 	            m = m / 10;
 	        }
+		 
 	        System.out.println("Sum of Digits:"+sum);
 	    }
 	}
